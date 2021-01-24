@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D46612B259CAC9600C23DFC /* HomeEsgiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46612A259CAC9600C23DFC /* HomeEsgiApp.swift */; };
+		1D46612D259CAC9600C23DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46612C259CAC9600C23DFC /* ContentView.swift */; };
+		1D46612F259CAC9700C23DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D46612E259CAC9700C23DFC /* Assets.xcassets */; };
+		1D466132259CAC9700C23DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D466131259CAC9700C23DFC /* Preview Assets.xcassets */; };
+		1D466137259CAC9700C23DFC /* HomeEsgi WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1D466136259CAC9700C23DFC /* HomeEsgi WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1D46613C259CAC9800C23DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D46613B259CAC9800C23DFC /* Assets.xcassets */; };
+		1D466143259CAC9800C23DFC /* HomeEsgi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D466142259CAC9800C23DFC /* HomeEsgi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1D466148259CAC9800C23DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D466147259CAC9800C23DFC /* ContentView.swift */; };
+		1D46614A259CAC9800C23DFC /* HomeEsgiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D466149259CAC9800C23DFC /* HomeEsgiApp.swift */; };
+		1D46614C259CAC9800C23DFC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46614B259CAC9800C23DFC /* ComplicationController.swift */; };
+		1D46614E259CAC9900C23DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D46614D259CAC9900C23DFC /* Assets.xcassets */; };
+		1D466151259CAC9900C23DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D466150259CAC9900C23DFC /* Preview Assets.xcassets */; };
+		1D4C4A4325A38BA700CE4624 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C4A4225A38BA700CE4624 /* Card.swift */; };
+		1D53431325BC2F150070EB86 /* TempScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53431225BC2F150070EB86 /* TempScreen.swift */; };
+		1D53431B25BC33170070EB86 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53431A25BC33170070EB86 /* HomeScreen.swift */; };
+		1D53431F25BC33810070EB86 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C4A4225A38BA700CE4624 /* Card.swift */; };
+		1D53434625BC4F110070EB86 /* iOSConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53434525BC4F110070EB86 /* iOSConnection.swift */; };
+		1D53434E25BC51C10070EB86 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53434D25BC51C10070EB86 /* HomeHeader.swift */; };
+		1D53435425BC92090070EB86 /* WatchConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53435325BC92090070EB86 /* WatchConnection.swift */; };
+		1D53435B25BC9CDD0070EB86 /* iOSConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53434525BC4F110070EB86 /* iOSConnection.swift */; };
+		1DF580D6259D567100068539 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF580D5259D567100068539 /* CircleView.swift */; };
+		1DF580DB259D56CF00068539 /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF580DA259D56CF00068539 /* TempView.swift */; };
+		1DF580E0259D5CD400068539 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF580DF259D5CD400068539 /* PowerView.swift */; };
+		1DF580FA259E054600068539 /* TempScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF580F9259E054600068539 /* TempScreen.swift */; };
+		1DF58102259E05AA00068539 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF58101259E05AA00068539 /* HomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D466138259CAC9700C23DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D46611F259CAC9600C23DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D466135259CAC9700C23DFC;
+			remoteInfo = "HomeEsgi WatchKit App";
+		};
+		1D466144259CAC9800C23DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D46611F259CAC9600C23DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D466141259CAC9800C23DFC;
+			remoteInfo = "HomeEsgi WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D466158259CAC9900C23DFC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D466143259CAC9800C23DFC /* HomeEsgi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D46615C259CAC9900C23DFC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1D466137259CAC9700C23DFC /* HomeEsgi WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D466127259CAC9600C23DFC /* HomeEsgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeEsgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D46612A259CAC9600C23DFC /* HomeEsgiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEsgiApp.swift; sourceTree = "<group>"; };
+		1D46612C259CAC9600C23DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D46612E259CAC9700C23DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D466131259CAC9700C23DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D466133259CAC9700C23DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D466136259CAC9700C23DFC /* HomeEsgi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeEsgi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D46613B259CAC9800C23DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D46613D259CAC9800C23DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D466142259CAC9800C23DFC /* HomeEsgi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HomeEsgi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D466147259CAC9800C23DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D466149259CAC9800C23DFC /* HomeEsgiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEsgiApp.swift; sourceTree = "<group>"; };
+		1D46614B259CAC9800C23DFC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1D46614D259CAC9900C23DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D466150259CAC9900C23DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D466152259CAC9900C23DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4C4A4225A38BA700CE4624 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1D53431225BC2F150070EB86 /* TempScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempScreen.swift; sourceTree = "<group>"; };
+		1D53431A25BC33170070EB86 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		1D53434525BC4F110070EB86 /* iOSConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConnection.swift; sourceTree = "<group>"; };
+		1D53434D25BC51C10070EB86 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		1D53435325BC92090070EB86 /* WatchConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnection.swift; sourceTree = "<group>"; };
+		1DF580D5259D567100068539 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		1DF580DA259D56CF00068539 /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
+		1DF580DF259D5CD400068539 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
+		1DF580F9259E054600068539 /* TempScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempScreen.swift; sourceTree = "<group>"; };
+		1DF58101259E05AA00068539 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		32094CF99D1B19E87B5309F2 /* Pods-HomeEsgi WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeEsgi WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-HomeEsgi WatchKit Extension/Pods-HomeEsgi WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		35C665B9C7C4AC2A5EBC0448 /* Pods-HomeEsgi WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeEsgi WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-HomeEsgi WatchKit Extension/Pods-HomeEsgi WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		5E17A5305690815FE3F4D119 /* Pods-HomeEsgi WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeEsgi WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-HomeEsgi WatchKit App/Pods-HomeEsgi WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		955B87DF934C5812820510E9 /* Pods-HomeEsgi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeEsgi.debug.xcconfig"; path = "Target Support Files/Pods-HomeEsgi/Pods-HomeEsgi.debug.xcconfig"; sourceTree = "<group>"; };
+		C5DC9501273BE89AB5BB614B /* Pods-HomeEsgi WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeEsgi WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-HomeEsgi WatchKit App/Pods-HomeEsgi WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		C7247A2609B5E95A690CED5A /* Pods-HomeEsgi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeEsgi.release.xcconfig"; path = "Target Support Files/Pods-HomeEsgi/Pods-HomeEsgi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D466124259CAC9600C23DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D46613F259CAC9800C23DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1545E03165FEED7BD8826C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D46611E259CAC9600C23DFC = {
+			isa = PBXGroup;
+			children = (
+				1D466129259CAC9600C23DFC /* HomeEsgi */,
+				1D46613A259CAC9700C23DFC /* HomeEsgi WatchKit App */,
+				1D466146259CAC9800C23DFC /* HomeEsgi WatchKit Extension */,
+				1D466128259CAC9600C23DFC /* Products */,
+				60919ACC985D1B8852B8A3AD /* Pods */,
+				F220B843573AFD4495D63766 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D466128259CAC9600C23DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D466127259CAC9600C23DFC /* HomeEsgi.app */,
+				1D466136259CAC9700C23DFC /* HomeEsgi WatchKit App.app */,
+				1D466142259CAC9800C23DFC /* HomeEsgi WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D466129259CAC9600C23DFC /* HomeEsgi */ = {
+			isa = PBXGroup;
+			children = (
+				1D53434425BC4EE30070EB86 /* Models */,
+				1DF580F8259E053300068539 /* Screens */,
+				1DF580D4259D563C00068539 /* Views */,
+				1D46612A259CAC9600C23DFC /* HomeEsgiApp.swift */,
+				1D46612C259CAC9600C23DFC /* ContentView.swift */,
+				1D46612E259CAC9700C23DFC /* Assets.xcassets */,
+				1D466133259CAC9700C23DFC /* Info.plist */,
+				1D466130259CAC9700C23DFC /* Preview Content */,
+			);
+			path = HomeEsgi;
+			sourceTree = "<group>";
+		};
+		1D466130259CAC9700C23DFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D466131259CAC9700C23DFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D46613A259CAC9700C23DFC /* HomeEsgi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1D46613B259CAC9800C23DFC /* Assets.xcassets */,
+				1D46613D259CAC9800C23DFC /* Info.plist */,
+			);
+			path = "HomeEsgi WatchKit App";
+			sourceTree = "<group>";
+		};
+		1D466146259CAC9800C23DFC /* HomeEsgi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D53435225BC91F20070EB86 /* Models */,
+				1D53431125BC2F020070EB86 /* Screens */,
+				1D466147259CAC9800C23DFC /* ContentView.swift */,
+				1D466149259CAC9800C23DFC /* HomeEsgiApp.swift */,
+				1D46614B259CAC9800C23DFC /* ComplicationController.swift */,
+				1D46614D259CAC9900C23DFC /* Assets.xcassets */,
+				1D466152259CAC9900C23DFC /* Info.plist */,
+				1D46614F259CAC9900C23DFC /* Preview Content */,
+			);
+			path = "HomeEsgi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1D46614F259CAC9900C23DFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D466150259CAC9900C23DFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D53431125BC2F020070EB86 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1D53431225BC2F150070EB86 /* TempScreen.swift */,
+				1D53431A25BC33170070EB86 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1D53434425BC4EE30070EB86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D53434525BC4F110070EB86 /* iOSConnection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D53435225BC91F20070EB86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D53435325BC92090070EB86 /* WatchConnection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DF580D4259D563C00068539 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DF580D5259D567100068539 /* CircleView.swift */,
+				1DF580DA259D56CF00068539 /* TempView.swift */,
+				1DF580DF259D5CD400068539 /* PowerView.swift */,
+				1D4C4A4225A38BA700CE4624 /* Card.swift */,
+				1D53434D25BC51C10070EB86 /* HomeHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DF580F8259E053300068539 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1DF580F9259E054600068539 /* TempScreen.swift */,
+				1DF58101259E05AA00068539 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		60919ACC985D1B8852B8A3AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				955B87DF934C5812820510E9 /* Pods-HomeEsgi.debug.xcconfig */,
+				C7247A2609B5E95A690CED5A /* Pods-HomeEsgi.release.xcconfig */,
+				5E17A5305690815FE3F4D119 /* Pods-HomeEsgi WatchKit App.debug.xcconfig */,
+				C5DC9501273BE89AB5BB614B /* Pods-HomeEsgi WatchKit App.release.xcconfig */,
+				32094CF99D1B19E87B5309F2 /* Pods-HomeEsgi WatchKit Extension.debug.xcconfig */,
+				35C665B9C7C4AC2A5EBC0448 /* Pods-HomeEsgi WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F220B843573AFD4495D63766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D466126259CAC9600C23DFC /* HomeEsgi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D46615D259CAC9900C23DFC /* Build configuration list for PBXNativeTarget "HomeEsgi" */;
+			buildPhases = (
+				E22351DF868AB5A777771B77 /* [CP] Check Pods Manifest.lock */,
+				1D466123259CAC9600C23DFC /* Sources */,
+				1D466124259CAC9600C23DFC /* Frameworks */,
+				1D466125259CAC9600C23DFC /* Resources */,
+				1D46615C259CAC9900C23DFC /* Embed Watch Content */,
+				4B8813A4C2B3FBB88F693110 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D466139259CAC9700C23DFC /* PBXTargetDependency */,
+			);
+			name = HomeEsgi;
+			productName = HomeEsgi;
+			productReference = 1D466127259CAC9600C23DFC /* HomeEsgi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D466135259CAC9700C23DFC /* HomeEsgi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D466159259CAC9900C23DFC /* Build configuration list for PBXNativeTarget "HomeEsgi WatchKit App" */;
+			buildPhases = (
+				0AB8B9EA6EC68D23A4715A7C /* [CP] Check Pods Manifest.lock */,
+				1D466134259CAC9700C23DFC /* Resources */,
+				1D466158259CAC9900C23DFC /* Embed App Extensions */,
+				C1545E03165FEED7BD8826C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D466145259CAC9800C23DFC /* PBXTargetDependency */,
+			);
+			name = "HomeEsgi WatchKit App";
+			productName = "HomeEsgi WatchKit App";
+			productReference = 1D466136259CAC9700C23DFC /* HomeEsgi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1D466141259CAC9800C23DFC /* HomeEsgi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D466155259CAC9900C23DFC /* Build configuration list for PBXNativeTarget "HomeEsgi WatchKit Extension" */;
+			buildPhases = (
+				0B361EBD61A13B27E9383C75 /* [CP] Check Pods Manifest.lock */,
+				1D46613E259CAC9800C23DFC /* Sources */,
+				1D46613F259CAC9800C23DFC /* Frameworks */,
+				1D466140259CAC9800C23DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeEsgi WatchKit Extension";
+			productName = "HomeEsgi WatchKit Extension";
+			productReference = 1D466142259CAC9800C23DFC /* HomeEsgi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D46611F259CAC9600C23DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1D466126259CAC9600C23DFC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1D466135259CAC9700C23DFC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1D466141259CAC9800C23DFC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1D466122259CAC9600C23DFC /* Build configuration list for PBXProject "HomeEsgi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D46611E259CAC9600C23DFC;
+			productRefGroup = 1D466128259CAC9600C23DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D466126259CAC9600C23DFC /* HomeEsgi */,
+				1D466135259CAC9700C23DFC /* HomeEsgi WatchKit App */,
+				1D466141259CAC9800C23DFC /* HomeEsgi WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D466125259CAC9600C23DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D466132259CAC9700C23DFC /* Preview Assets.xcassets in Resources */,
+				1D46612F259CAC9700C23DFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D466134259CAC9700C23DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D46613C259CAC9800C23DFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D466140259CAC9800C23DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D466151259CAC9900C23DFC /* Preview Assets.xcassets in Resources */,
+				1D46614E259CAC9900C23DFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB8B9EA6EC68D23A4715A7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeEsgi WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B361EBD61A13B27E9383C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeEsgi WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8813A4C2B3FBB88F693110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeEsgi/Pods-HomeEsgi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeEsgi/Pods-HomeEsgi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeEsgi/Pods-HomeEsgi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22351DF868AB5A777771B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeEsgi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D466123259CAC9600C23DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF580D6259D567100068539 /* CircleView.swift in Sources */,
+				1DF580FA259E054600068539 /* TempScreen.swift in Sources */,
+				1DF58102259E05AA00068539 /* HomeScreen.swift in Sources */,
+				1D46612D259CAC9600C23DFC /* ContentView.swift in Sources */,
+				1DF580DB259D56CF00068539 /* TempView.swift in Sources */,
+				1D46612B259CAC9600C23DFC /* HomeEsgiApp.swift in Sources */,
+				1DF580E0259D5CD400068539 /* PowerView.swift in Sources */,
+				1D53434625BC4F110070EB86 /* iOSConnection.swift in Sources */,
+				1D4C4A4325A38BA700CE4624 /* Card.swift in Sources */,
+				1D53434E25BC51C10070EB86 /* HomeHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D46613E259CAC9800C23DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D53435425BC92090070EB86 /* WatchConnection.swift in Sources */,
+				1D53435B25BC9CDD0070EB86 /* iOSConnection.swift in Sources */,
+				1D46614A259CAC9800C23DFC /* HomeEsgiApp.swift in Sources */,
+				1D53431F25BC33810070EB86 /* Card.swift in Sources */,
+				1D53431B25BC33170070EB86 /* HomeScreen.swift in Sources */,
+				1D53431325BC2F150070EB86 /* TempScreen.swift in Sources */,
+				1D466148259CAC9800C23DFC /* ContentView.swift in Sources */,
+				1D46614C259CAC9800C23DFC /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D466139259CAC9700C23DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D466135259CAC9700C23DFC /* HomeEsgi WatchKit App */;
+			targetProxy = 1D466138259CAC9700C23DFC /* PBXContainerItemProxy */;
+		};
+		1D466145259CAC9800C23DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D466141259CAC9800C23DFC /* HomeEsgi WatchKit Extension */;
+			targetProxy = 1D466144259CAC9800C23DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D466153259CAC9900C23DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D466154259CAC9900C23DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1D466156259CAC9900C23DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32094CF99D1B19E87B5309F2 /* Pods-HomeEsgi WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeEsgi WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F39XW7VQX;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "HomeEsgi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.esgi.HomeEsgi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		1D466157259CAC9900C23DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C665B9C7C4AC2A5EBC0448 /* Pods-HomeEsgi WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeEsgi WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F39XW7VQX;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "HomeEsgi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.esgi.HomeEsgi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		1D46615A259CAC9900C23DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E17A5305690815FE3F4D119 /* Pods-HomeEsgi WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F39XW7VQX;
+				FRAMEWORK_SEARCH_PATHS = "";
+				IBSC_MODULE = HomeEsgi_WatchKit_Extension;
+				INFOPLIST_FILE = "HomeEsgi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.esgi.HomeEsgi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		1D46615B259CAC9900C23DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DC9501273BE89AB5BB614B /* Pods-HomeEsgi WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F39XW7VQX;
+				FRAMEWORK_SEARCH_PATHS = "";
+				IBSC_MODULE = HomeEsgi_WatchKit_Extension;
+				INFOPLIST_FILE = "HomeEsgi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.esgi.HomeEsgi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		1D46615E259CAC9900C23DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955B87DF934C5812820510E9 /* Pods-HomeEsgi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeEsgi/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F39XW7VQX;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaMQTT\"",
+				);
+				INFOPLIST_FILE = HomeEsgi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.esgi.HomeEsgi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D46615F259CAC9900C23DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7247A2609B5E95A690CED5A /* Pods-HomeEsgi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeEsgi/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F39XW7VQX;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaMQTT\"",
+				);
+				INFOPLIST_FILE = HomeEsgi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.esgi.HomeEsgi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D466122259CAC9600C23DFC /* Build configuration list for PBXProject "HomeEsgi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D466153259CAC9900C23DFC /* Debug */,
+				1D466154259CAC9900C23DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D466155259CAC9900C23DFC /* Build configuration list for PBXNativeTarget "HomeEsgi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D466156259CAC9900C23DFC /* Debug */,
+				1D466157259CAC9900C23DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D466159259CAC9900C23DFC /* Build configuration list for PBXNativeTarget "HomeEsgi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D46615A259CAC9900C23DFC /* Debug */,
+				1D46615B259CAC9900C23DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D46615D259CAC9900C23DFC /* Build configuration list for PBXNativeTarget "HomeEsgi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D46615E259CAC9900C23DFC /* Debug */,
+				1D46615F259CAC9900C23DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D46611F259CAC9600C23DFC /* Project object */;
+}
